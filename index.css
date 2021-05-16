@@ -1,0 +1,195 @@
+/* Header */
+a {
+    color: white;
+    font-size: 18px;
+}
+
+p {
+    font-size: 18px;
+}
+
+div .container {
+    margin: 0 15px;
+}
+
+/*Navbar */
+
+.navbar-brand {
+    padding: 0;
+    margin: 0;
+}
+
+nav div.container {
+    margin: 0 60px;
+}
+
+
+a {
+    color: #3B3A3A;
+}
+
+.dropdown-menu a {
+    color: #545454;
+}
+
+
+/* Main */
+
+#hero .jumbotron {
+    /* background-image: url(/assets/cover.png); */
+    background-image: url(/assets2/converhero/5.png);
+    color: rgb(77, 77, 77);
+    border-radius: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+}
+
+.jumbotron > * {
+    position: relative;
+    z-index: 2;
+}
+
+.display-4 {
+    /* text-shadow: 2px 2px 10px black; */
+    font-weight: 400;
+}
+.jumbotron p {
+    font-size: 20px;
+}
+
+.btn-primary {
+    background-color: #29aaaf;
+    
+}
+
+.btn-info {
+    background-color: #368879;
+    border-color: #368879;
+    
+}
+
+.container h3 {
+    font-weight: 400;
+    font-size: 2rem;
+    text-align: center;
+    padding-bottom: 30px;
+    margin: 0;
+    color: #545454;
+}
+
+section {
+    padding: 60px 0;
+    height: fit-content;
+}
+
+div.container {
+    padding: 0;
+}
+
+/*Galeria*/
+#galeria {
+    /* border: 1px solid blue; */
+    background-image: url(assets2/carrusel/3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 20px;
+    padding: 0;
+    height: 110vh;
+    background-color: #368879;
+}
+
+#galeria h3 {
+    margin-top: 40px;
+}
+
+#galeria .carousel-inner img {
+    max-height: 70vh;
+    object-fit: scale-down;
+}
+
+/*Temps*/
+.brochure-img {
+    width: 240px;
+    align-self: center;
+}
+.brochure-text {
+    text-align: center;
+}
+#brochure .card {
+    border: none;
+    padding: 20px;
+}
+
+#brochure .card-title {
+    margin: 20px 0;
+    text-align: center;
+}
+
+/*Clients*/
+#clients {
+    padding: 50px 0;
+    /* background-color: rgba(168, 224, 206, 0.226); */
+    background-color: #368879;
+}
+
+#clients h3 {
+    color: white;
+}
+
+#clients h6 {
+    text-align: center;
+    color: whitesmoke;
+    font-weight: 400;
+}
+#clients p{
+    text-align: center;
+    color: white;
+}
+/*Reviews*/
+#reviews {
+    background-color: whitesmoke;
+}
+
+#reviews h3 {
+    color: #10868a;
+    margin: 30px 0;
+}
+
+/*Fluid Break*/
+.fluidbreak {
+    background-image: url(assets2/cover2.png);
+    height: 300px;
+    object-fit: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0 0;
+}
+
+#fluidbreak {
+    padding: 0;
+    margin: 0;
+}
+
+/* Acerca de */
+
+img#foto-marie{
+    width: 150px;
+    margin: 20px;
+
+}
+
+/* Footer */
+#footer {
+    background: linear-gradient(90deg,#368879, #2e8b7a 25%, #5bc3b0);
+}
+
+#footer a {
+    color: white;
+}
