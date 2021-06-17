@@ -178,10 +178,12 @@ div.container {
 
 /* Acerca de */
 
-img#foto-marie{
+img#foto-mariegarciaconsultora{
     width: 150px;
     margin: 20px;
-
+    border-radius: 50%;
+    background-position: 50%;
+    background-repeat: no-repeat;
 }
 
 /* Footer */
