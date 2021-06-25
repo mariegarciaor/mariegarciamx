@@ -94,13 +94,13 @@ div.container {
 /*Galeria*/
 #galeria {
     /* border: 1px solid blue; */
-    background-image: url(assets2/carrusel/3.png);
+    background-image: url(assets2/carrusel/4.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0 20px;
     padding: 0;
-    height: 110vh;
+    height: 100vh;
     background-color: #368879;
 }
 
